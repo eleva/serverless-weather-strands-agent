@@ -1,0 +1,35 @@
+service: serverless-strands-weather-agent
+frameworkVersion: '3'
+
+## Use .env
+useDotenv: true
+
+## Package individually each function
+package:
+  individually: true
+
+## Apply plugins
+plugins:
+  - serverless-python-requirements #install python requirements
+
+## Define provider and globals
+provider:
+  name: aws
+  runtime: python3.12
+
+## Define atomic functions
+functions:
+  ## Weather function
+  weather:
+    handler: src/agent/weather/handler.weather #function handler
+    url: true
+    package: #package patterns
+      include:
+        - "!**/*"
+        - src/agent/weather/**
+
+
+
+
+
+

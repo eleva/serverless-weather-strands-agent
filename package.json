@@ -1,0 +1,10 @@
+{
+  "name": "serverless-strands-weather-agent",
+  "version": "1.0.0",
+  "description": "serverless-strands-weather-agent",
+  "author": "d.desio@eleva.it",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.1"
+  }
+}
