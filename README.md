@@ -1,4 +1,4 @@
-# 🧵 Serverless `Strands Weather Agent`
+# 🧵 Serverless `Weather Strands Agent`
 This is a simple serverless agent that uses weather and location APIs to get the weather information for a given location.
 It is built with `Strands Agents SDK` using `http_request` tool and `AWS Bedrock` with `Amazon Nova Micro` model integration.
 

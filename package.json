@@ -1,7 +1,7 @@
 {
-  "name": "serverless-strands-weather-agent",
+  "name": "serverless-weather-strands-agent",
   "version": "1.0.0",
-  "description": "serverless-strands-weather-agent",
+  "description": "serverless-weather-strands-agent",
   "author": "d.desio@eleva.it",
   "license": "ISC",
   "devDependencies": {
